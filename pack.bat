@@ -1,0 +1,1 @@
+nuget pack source\Lumberjack\Lumberjack.nuspec -OutputDirectory D:\Packages\lumberjack

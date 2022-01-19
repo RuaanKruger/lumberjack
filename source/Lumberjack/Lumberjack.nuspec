@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Lumberjack</id>
+    <version>1.0.3.2</version>
+    <title>Lumberjack</title>
+    <authors>Ruaan Kruger</authors>
+    <owners>Ruaan Kruger</owners>
+    <licenseUrl>https://github.com/RuaanKruger/lumberjack/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RuaanKruger/lumberjack/</projectUrl>
+    <iconUrl>https://github.com/RuaanKruger/lumberjack/blob/main/docs/resources/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>Good looking logs!</description>
+    <copyright>Copyright 2021 - Ruaan Kruger</copyright>
+    <tags>logging, analyzers</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <!-- The convention for analyzers is to put language agnostic dlls in analyzers\portable50 and language specific analyzers in either analyzers\portable50\cs or analyzers\portable50\vb -->
+  <files>
+    <file src="bin\Debug\netstandard2.0\Lumberjack.dll" 
+          target="analyzers\dotnet\cs" 
+          exclude="**\Microsoft.CodeAnalysis.*;**\System.Collections.Immutable.*;**\System.Reflection.Metadata.*;**\System.Composition.*" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>

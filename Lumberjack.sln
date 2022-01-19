@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lumberjack", "source\Lumberjack\Lumberjack.csproj", "{4D45F401-F76C-4A42-B19A-ABA551635988}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{FE435D3C-C8CA-4BF1-B67F-148C30E61BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C90021BD-3BD1-4F92-BB04-030B0F0087FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lumberjack.UnitTests", "tests\Lumberjack.UnitTests\Lumberjack.UnitTests.csproj", "{CB114706-ED2C-4842-8CB8-EE7C98F274F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{49215645-5760-4E34-85D1-88697F08F8BD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS", "CS", "{36EEDEFA-0EEB-4BB6-A278-A53E642EBB9A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\cs\LOG001.md = docs\cs\LOG001.md
+		docs\cs\LOG002.md = docs\cs\LOG002.md
+		docs\cs\LOG003.md = docs\cs\LOG003.md
+		docs\cs\LOG004.md = docs\cs\LOG004.md
+		docs\cs\LOG005.md = docs\cs\LOG005.md
+		docs\cs\LOG006.md = docs\cs\LOG006.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumberjack.Vsix", "source\Lumberjack.Vsix\Lumberjack.Vsix.csproj", "{FC24C903-7A0F-4C9A-81D4-C80669585507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D45F401-F76C-4A42-B19A-ABA551635988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D45F401-F76C-4A42-B19A-ABA551635988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D45F401-F76C-4A42-B19A-ABA551635988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D45F401-F76C-4A42-B19A-ABA551635988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB114706-ED2C-4842-8CB8-EE7C98F274F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB114706-ED2C-4842-8CB8-EE7C98F274F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB114706-ED2C-4842-8CB8-EE7C98F274F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB114706-ED2C-4842-8CB8-EE7C98F274F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC24C903-7A0F-4C9A-81D4-C80669585507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC24C903-7A0F-4C9A-81D4-C80669585507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC24C903-7A0F-4C9A-81D4-C80669585507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC24C903-7A0F-4C9A-81D4-C80669585507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D45F401-F76C-4A42-B19A-ABA551635988} = {FE435D3C-C8CA-4BF1-B67F-148C30E61BFE}
+		{CB114706-ED2C-4842-8CB8-EE7C98F274F7} = {C90021BD-3BD1-4F92-BB04-030B0F0087FA}
+		{36EEDEFA-0EEB-4BB6-A278-A53E642EBB9A} = {49215645-5760-4E34-85D1-88697F08F8BD}
+		{FC24C903-7A0F-4C9A-81D4-C80669585507} = {FE435D3C-C8CA-4BF1-B67F-148C30E61BFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BD8EE3F-8F6B-41EB-BBF9-C2C3AC68BEFD}
+	EndGlobalSection
+EndGlobal
